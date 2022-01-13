@@ -18,8 +18,8 @@ position, draw X or O on the display and check if the player wins the game or no
 I hope you enjoyed building the game."
 
 I started the project by adding a new git repository on github and creating a .gitignore
-file in order to establish the Initial Commit. Then I opened Python and began
-entering code as I followed along reading the tutorial.
+file in order to establish the main branch with an Initial Commit. Then I opened 
+Python and began entering code as I followed along reading the tutorial.
 
 After I finished entering all of the code from the tutorial and git repo, I found that it 
 would render the opening image and the game board, but did not respond to mouse clicks to 
