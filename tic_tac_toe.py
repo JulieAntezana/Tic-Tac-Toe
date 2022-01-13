@@ -1,3 +1,10 @@
+"""
+Title: W02 Prove: Developer -Solo Code Submisssion - 
+cse210-01 Tic Tac Toe
+Author: Julie Antezana with support from a tutorial by 
+TechVidvan at  https://techvidvan.com/tutorials/python-game-project-tic-tac-toe/,
+and https://github.com/ganeshkavhar/Python-Tic-Tac-Toe-Game
+"""
 import pygame as pg
 import sys
 from pygame.locals import *
@@ -140,7 +147,6 @@ def draw_cat(row, column):
     posx = 30
     posy = 30
     screen.blit(c_img, (posy, posx))
-    #draw = True
 
 
 def userClick():
