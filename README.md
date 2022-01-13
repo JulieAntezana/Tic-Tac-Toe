@@ -21,16 +21,17 @@ I started the project by adding a new git repository on github and creating a .g
 file in order to establish the main branch with an Initial Commit. Then I opened 
 Python and began entering code as I followed along reading the tutorial.
 
-After I finished entering all of the code from the tutorial and git repo, I found that it 
+After I finished entering all of the code from the tutorial and the git repo, I found that it 
 would render the opening image and the game board, but did not respond to mouse clicks to 
 draw X's and O's on the board. After some study, I noticed a small error in one line 
 of the original code from the git repo, "elif event.type is MOUSEBUTTONDOWN:" 
 At first I tried switching the command to MOUSEBUTTONUP, but there was no difference. 
 Then I realized that "is" needed to be changed to "==" and then the game worked perfectly.
 
-I made this game my own by choosing my own colors, creating all my own images from scratch,
-rewording the messages to suit my taste, and creating a function, "draw_cat" to add the large 
-"Cat Scratch!" letter C across the board when the game ends in a draw.
+I made this game my own, visually, by choosing my own colors and creating all my own images 
+from scratch, using google slides, Windows snipping tool, Paint 3d, and Gimp. I made the
+code my own by rewording the messages and timer to suit my taste, and creating a new function, 
+"draw_cat" to add a large "Cat Scratch!" letter C across the board when the game ends in a draw.
 
 Once I had the game working to my satisfaction, I used the Source Control features on VS Code
 to upload my files to my github repository.
